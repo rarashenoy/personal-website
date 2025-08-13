@@ -5,7 +5,17 @@ body {
     background: #fafbfc;
     color: #222;
 }
-
+#NavBar {
+  position: sticky;
+  top: 0;
+  background-color: white; /* Or your preferred background */
+  z-index: 999; /* Keeps nav on top of other content */
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: adds a soft shadow when scrolling */
+}
 nav#NavBar {
     display: flex;
     justify-content: space-between;
@@ -158,4 +168,5 @@ nav#NavBar img {
 }
 #Start h1{
     margin:0;
+
 }
